@@ -40,7 +40,7 @@ class ProfileContainer extends Component {
 
     console.log(this.props.profile);
 
-    if (this.state.dataisLoaded) {
+    if (this.state.dataisLoaded && images.length > 0) {
       return (
         <div>
           <ProfileComponent
@@ -50,6 +50,19 @@ class ProfileContainer extends Component {
             href={external_urls.spotify}
             id={id}
             images={images[0].url}
+            product={product}
+          />
+        </div>
+      );
+    } else if (this.state.dataisLoaded) {
+      return (
+        <div>
+          <ProfileComponent
+            country={country}
+            display_name={display_name}
+            email={email}
+            href={external_urls.spotify}
+            id={id}
             product={product}
           />
         </div>

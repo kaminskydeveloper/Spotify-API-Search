@@ -12,7 +12,7 @@ export default function ProfileComponent(props) {
         padding: '20px',
       }}
     >
-      <Card.Img src={props.images} alt="profile" />
+      <Card.Img src={props.images} alt="Avatar" />
       <Card.Title>{props.display_name}</Card.Title>
       <p>Country: {props.country}</p>
 
