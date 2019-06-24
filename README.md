@@ -1,4 +1,4 @@
-# 2019_Rozwiazanie_FrontEndDeveloper_Intern_Poznan - Spotify API
+# React APP using Spotify API - Zaliczenie React
 
 To start this application first you need to run server.
 Go to server directory and install node modules using `npm install`.
