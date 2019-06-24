@@ -9,3 +9,11 @@ Go to client directory and install node modules with the same command.
 Then run react application using `npm start`.
 
 Then you should be redirected to localhost address with React Application.
+
+Requirements:
+API [x]
+Redux [x]
+5 Redux Containers [x]
+10 Components [x]
+Bootstrap [x]
+SASS [x]
