@@ -76,8 +76,6 @@ const mapStateToProps = state => ({
 const mapActionsToProps = dispatch => {
   return {
     fetchAlbums: albums => dispatch({ type: 'FETCH_ALBUMS', payload: albums }),
-    sortAlpha: albums =>
-      dispatch({ type: 'SORT_ALBUMS_ALPHA', payload: albums }),
   };
 };
 

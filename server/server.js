@@ -4,9 +4,9 @@ const querystring = require('query-string');
 const volleyball = require('volleyball');
 const cors = require('cors');
 
-const SPOTIFY_CLIENT_ID = 'put your id here';
+const SPOTIFY_CLIENT_ID = 'put here your client id';
 
-const SPOTIFY_CLIENT_SECRET = 'put your secret here';
+const SPOTIFY_CLIENT_SECRET = 'put here your secret key';
 
 const app = express();
 app.use(cors());
